@@ -85,7 +85,7 @@ with mp_pose.Pose(static_image_mode=False) as pose:
                     teclado.release('v')
                     tecla_v_presionada = False
 
-        cv2.imshow("Marco", marco)
+        cv2.imshow("Mediapipe", marco)
 
         if cv2.waitKey(1) & 0xFF == 27:
             break
